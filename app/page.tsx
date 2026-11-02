@@ -588,14 +588,14 @@ export default function Home() {
             </h2>
 
             <p className="mx-auto mt-2 max-w-lg text-sm leading-6 text-slate-400">
-              We read{" "}
-              <span className="font-medium text-slate-200">
-                {fileName}
-              </span>
-              , but couldn't find supported Base64 data URIs. This file
-              may use external URLs or load assets dynamically with
-              JavaScript.
-            </p>
+  We read{" "}
+  <span className="font-medium text-slate-200">
+    {fileName}
+  </span>
+  , but couldn&apos;t find supported Base64 data URIs. This file
+  may use external URLs or load assets dynamically with
+  JavaScript.
+</p>
 
             <div className="mx-auto mt-5 max-w-md rounded-xl border border-white/[.07] bg-black/10 p-4 text-left">
               <p className="mb-2 text-xs font-semibold text-slate-300">
